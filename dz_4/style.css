@@ -1,0 +1,34 @@
+#box {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+
+}
+.traffic-light {
+    width: 100px;
+    height: 250px;
+    background-color: #333;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+.light {
+    width: 80px;
+    height: 80px;
+    background-color: #555;
+    border-radius: 50%;
+    margin: auto;
+}
+.red {
+    background-color: #f00;
+}
+.yellow {
+    background-color: #ff0;
+}
+.green {
+    background-color: #0f0;
+}
+
+
